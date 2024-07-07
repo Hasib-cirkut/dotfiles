@@ -1,0 +1,17 @@
+import = [
+  "/Users/adibhasib/.nvm/versions/node/v21.7.3/lib/node_modules/alacritty-themes/themes/Taerminal.toml"
+]
+
+[colors.primary]
+background = "#1e212c"
+foreground = "#ebdbb2"
+
+[font]
+normal = { family = "MesloLGLDZ Nerd Font", style = "Regular" }
+size = 18
+
+[scrolling]
+history = 10_000
+
+[selection]
+save_to_clipboard = true
