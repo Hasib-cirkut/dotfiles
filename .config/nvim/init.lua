@@ -4,10 +4,12 @@ vim.cmd("set expandtab")
 vim.opt.clipboard = "unnamedplus"
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>w", ":w<CR>")
+vim.api.nvim_set_keymap("i", "<S-Tab>", [[pumvisible() ? "\<C-p>" : "\<C-d>"]], { expr = true, noremap = true })
 
 vim.wo.number = true
 
-vim.opt.signcolumn = "yes:1"
+vim.opt.numberwidth = 2
+vim.opt.signcolumn = "yes:2"
 
 vim.keymap.set("n", "<C-h>", ":wincmd h<CR>")
 vim.keymap.set("n", "<C-l>", ":wincmd l<CR>")

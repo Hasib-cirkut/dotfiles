@@ -22,7 +22,6 @@ else
     echo "fzf is not installed. Please visit this link to install. https://github.com/junegunn/fzf?tab=readme-ov-file#setting-up-shell-integration"
 fi
 
-
 plugins=(git fast-syntax-highlighting fzf-tab)
 
 source $ZSH/oh-my-zsh.sh
